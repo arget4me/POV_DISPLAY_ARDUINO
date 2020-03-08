@@ -78,27 +78,21 @@ void loop()
 {
   if (microsTimePerLap > 0) {
     loopTimer = micros();
-    float delta  = (float(micros() - timeold) / float(microsTimePerLap));
-    
-    //unsigned int index = round(((float)PIXEL_PER_BAND) * delta);
-    //index %= PIXEL_PER_BAND;
 
+    //Calculate index, offset by 180 degrees to display correct. @TODO: change this in the POV_IMAGE editor.
     unsigned int index = loopIndexCounter++;
     if(index >= PIXEL_PER_BAND)index = PIXEL_PER_BAND - 1;
-
     index = (index + PIXEL_PER_BAND/2)%PIXEL_PER_BAND;
 
+    //Draw pixels
     unsigned int pixel_index = index * 10;
     for(int i = 0; i < 10; i++)
     {
       strip.setPixelColor(i, palette[bands[pixel_index + i]]);
     }strip.show();
 
-    while(micros() - loopTimer < targetLoopTime)
-    {
-      //delayMicroseconds(1);
-      
-    }
+    //Spin loop to get correct timings
+    while(micros() - loopTimer < targetLoopTime){ }
   }
 }
 
