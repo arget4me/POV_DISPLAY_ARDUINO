@@ -18,8 +18,12 @@ public class Band {
 		delta /= numPixels;
 		
 		for(int i = 0; i < numPixels; i++){
-			pixels[i] = new Pixel(0x0, (int)(centerX + Math.cos(delta*i)*radius), (int)(centerY + Math.sin(delta*i)*radius), 5);
+			pixels[i] = new Pixel(0x0, (int)(centerX + Math.cos(delta*i + Math.PI)*radius), (int)(centerY + Math.sin(delta*i + Math.PI)*radius), 5);
 		}
+		pixels[0].color = 0xFFFF00FF;
+		pixels[numPixels/2].color = 0xFFFFFF00;
+		pixels[numPixels-1].color = 0xFF00FFFF;
+		
 		
 	}
 	

@@ -1,20 +1,24 @@
-#define PIXEL_PER_BAND 58
+#define PIXEL_PER_BAND 90
 
-char band_0[PIXEL_PER_BAND * 3] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, };
-char band_1[PIXEL_PER_BAND * 3] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, };
-char band_2[PIXEL_PER_BAND * 3] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, };
-char band_3[PIXEL_PER_BAND * 3] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, };
-char band_4[PIXEL_PER_BAND * 3] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, };
-char band_5[PIXEL_PER_BAND * 3] = {0, 0, 0, 255, 0, 0, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 0, 0, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 0, 0, 0, 0, 0, 0, 0, 0, 255, 0, 0, 0, 0, 0, 255, 0, 0, 255, 0, 0, 255, 0, 0, 0, 0, 0, 255, 0, 0, 255, 0, 0, 255, 0, 0, 0, 0, 0, 255, 0, 0, 255, 0, 0, 255, 0, 0, 0, 0, 0, };
-char band_6[PIXEL_PER_BAND * 3] = {255, 0, 0, 0, 0, 0, 0, 0, 0, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 0, 0, 0, 0, 0, 0, 0, 0, 255, 0, 0, 0, 0, 0, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, };
-char band_7[PIXEL_PER_BAND * 3] = {255, 0, 0, 0, 0, 0, 0, 0, 0, 255, 0, 0, 0, 0, 0, 0, 0, 0, 255, 0, 0, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 0, 0, 255, 0, 0, 255, 0, 0, 255, 0, 0, 0, 0, 0, 255, 0, 0, 255, 0, 0, 255, 0, 0, 0, 0, 0, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, };
-char band_8[PIXEL_PER_BAND * 3] = {255, 0, 0, 0, 0, 0, 0, 0, 0, 255, 0, 0, 0, 0, 0, 0, 0, 0, 255, 0, 0, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 0, 0, 0, 0, 0, 0, 0, 0, 255, 0, 0, 0, 0, 0, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, };
-char band_9[PIXEL_PER_BAND * 3] = {0, 0, 0, 255, 0, 0, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 0, 0, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 0, 0, 0, 0, 0, 0, 0, 0, 255, 0, 0, 0, 0, 0, 255, 0, 0, 255, 0, 0, 255, 0, 0, 0, 0, 0, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, };
+uint32_t palette[4] = {-65536, -256, -16711936, -16777216, };
+
+char bands[10 * PIXEL_PER_BAND] = {0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 3, 0, 3, 0, 0, 0, 0, 0, 1, 1, 0, 0, 3, 0, 0, 0, 0, 3, 1, 1, 0, 0, 3, 0, 0, 0, 3, 3, 1, 1, 0, 0, 3, 0, 0, 0, 3, 3, 1, 1, 0, 0, 3, 0, 0, 0, 3, 3, 1, 1, 0, 0, 0, 0, 0, 1, 3, 3, 1, 1, 1, 0, 0, 0, 0, 1, 3, 3, 1, 1, 1, 0, 3, 0, 0, 1, 3, 3, 3, 1, 1, 3, 3, 0, 0, 1, 3, 3, 3, 1, 1, 0, 3, 0, 0, 1, 3, 3, 3, 1, 0, 0, 3, 0, 0, 1, 1, 3, 3, 3, 0, 0, 3, 0, 0, 1, 1, 3, 3, 3, 1, 0, 3, 0, 0, 1, 1, 3, 3, 1, 1, 0, 3, 0, 0, 1, 1, 1, 3, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 3, 1, 1, 0, 0, 0, 0, 1, 1, 1, 3, 1, 1, 1, 3, 0, 0, 1, 1, 3, 3, 3, 1, 0, 3, 0, 0, 1, 1, 3, 3, 3, 0, 0, 3, 0, 0, 1, 3, 3, 3, 1, 0, 0, 3, 0, 0, 1, 3, 3, 3, 1, 1, 0, 3, 0, 0, 1, 3, 3, 3, 1, 1, 3, 3, 0, 0, 1, 3, 3, 1, 1, 1, 0, 3, 0, 0, 1, 3, 3, 1, 1, 1, 0, 0, 0, 0, 0, 3, 3, 1, 1, 0, 0, 0, 0, 0, 0, 3, 3, 1, 1, 0, 0, 3, 0, 0, 0, 3, 3, 1, 1, 0, 0, 3, 0, 0, 0, 0, 3, 1, 1, 0, 0, 3, 0, 0, 0, 0, 0, 1, 1, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 3, 0, 3, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 0, 0, 0, 3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 3, 3, 3, 3, 3, 2, 3, 0, 0, 0, 3, 3, 3, 3, 2, 2, 2, 0, 0, 2, 3, 3, 3, 2, 2, 2, 2, 0, 0, 2, 3, 3, 3, 2, 2, 2, 2, 0, 0, 2, 3, 3, 3, 2, 2, 2, 2, 0, 0, 2, 3, 3, 3, 2, 2, 2, 2, 0, 0, 2, 3, 3, 3, 2, 2, 2, 2, 0, 0, 2, 2, 3, 3, 3, 2, 2, 2, 0, 0, 2, 2, 3, 3, 3, 2, 2, 2, 0, 0, 2, 2, 3, 3, 2, 2, 2, 2, 0, 0, 2, 2, 2, 3, 2, 2, 2, 2, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 2, 2, 2, 3, 2, 2, 2, 2, 0, 0, 2, 2, 3, 3, 2, 2, 2, 2, 0, 0, 2, 2, 3, 3, 3, 2, 2, 2, 0, 0, 2, 2, 3, 3, 3, 2, 2, 2, 0, 0, 2, 3, 3, 3, 2, 2, 2, 2, 0, 0, 2, 3, 3, 3, 2, 2, 2, 2, 0, 0, 2, 3, 3, 3, 2, 2, 2, 2, 0, 0, 2, 3, 3, 3, 2, 2, 2, 2, 0, 0, 2, 3, 3, 3, 2, 2, 2, 2, 0, 0, 0, 3, 3, 3, 3, 2, 2, 2, 0, 0, 0, 3, 3, 3, 3, 3, 2, 3, 0, 0, 0, 3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3, };
 
 
-volatile long msTimePerLap;
+
+#define HALL_EFFECT_SWITCH_PIN 2
+#include <math.h>
+
+volatile unsigned long microsTimePerLap;
 unsigned long timeold;
+unsigned long loopTimer = 0;
+volatile unsigned long targetLoopTime = 0;
+volatile unsigned int loopIndexCounter = 0;
 
+
+
+
+//------------------NEOPIXEL----------------------------------------------
 
 // A basic everyday NeoPixel strip test program.
 
@@ -27,7 +31,6 @@ unsigned long timeold;
 // - When using a 3.3V microcontroller with a 5V-powered NeoPixel strip,
 //   a LOGIC-LEVEL CONVERTER on the data line is STRONGLY RECOMMENDED.
 // (Skipping these may work OK on your workbench but can fail in the field)
-
 #include <Adafruit_NeoPixel.h>
 
 // Which pin on the Arduino is connected to the NeoPixels?
@@ -48,50 +51,91 @@ Adafruit_NeoPixel strip(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);
 //   NEO_RGB     Pixels are wired for RGB bitstream (v1 FLORA pixels, not v2)
 //   NEO_RGBW    Pixels are wired for RGBW bitstream (NeoPixel RGBW products)
 
+//------------------NEOPIXEL----------------------------------------------
 
-// setup() function -- runs once at startup --------------------------------
 
+
+
+
+//----------SETUP - runs once at startup ---------------------------------
 void setup() {
-  Serial.begin(9600);
-  attachInterrupt(digitalPinToInterrupt(2), magnet_detect, RISING);//Initialize the intterrupt pin (Arduino digital pin 2)
-  msTimePerLap = 10000;
+  //Serial.begin(9600);
+  pinMode(HALL_EFFECT_SWITCH_PIN, INPUT_PULLUP);
+  attachInterrupt(digitalPinToInterrupt(HALL_EFFECT_SWITCH_PIN), magnet_detect, RISING);//Initialize the intterrupt pin (Arduino digital pin 2)
+  microsTimePerLap = 10000;
   timeold = millis();
 
 
   strip.begin();           // INITIALIZE NeoPixel strip object (REQUIRED)
   strip.show();            // Turn OFF all pixels ASAP
-  strip.setBrightness(50); // Set BRIGHTNESS to about 1/5 (max = 255)
+  //strip.setBrightness(10);
+  strip.setBrightness(255);
 }
 
 
-// loop() function -- runs repeatedly as long as board is on ---------------
-
-void loop() {
-  if (msTimePerLap > 0) {
-    long dt = millis() - timeold;
-    //float delta  = 2*PI * (float(dt) / float(msTimePerLap));
-    float delta  = (float(dt) / float(msTimePerLap));
-    strip.clear();
-    unsigned int index = (PIXEL_PER_BAND - PIXEL_PER_BAND * delta);
-    index %= PIXEL_PER_BAND;
-    strip.setPixelColor(0, strip.Color(band_0[index * 3], band_0[index * 3 + 1], band_0[index * 3 + 2]));
-    strip.setPixelColor(1, strip.Color(band_1[index * 3], band_1[index * 3 + 1], band_1[index * 3 + 2]));
-    strip.setPixelColor(2, strip.Color(band_2[index * 3], band_2[index * 3 + 1], band_2[index * 3 + 2]));
-    strip.setPixelColor(3, strip.Color(band_3[index * 3], band_3[index * 3 + 1], band_3[index * 3 + 2]));
-    strip.setPixelColor(4, strip.Color(band_4[index * 3], band_4[index * 3 + 1], band_4[index * 3 + 2]));
-    strip.setPixelColor(5, strip.Color(band_5[index * 3], band_5[index * 3 + 1], band_5[index * 3 + 2]));
-    strip.setPixelColor(6, strip.Color(band_6[index * 3], band_6[index * 3 + 1], band_6[index * 3 + 2]));
-    strip.setPixelColor(7, strip.Color(band_7[index * 3], band_7[index * 3 + 1], band_7[index * 3 + 2]));
-    strip.setPixelColor(8, strip.Color(band_8[index * 3], band_8[index * 3 + 1], band_8[index * 3 + 2]));
-    strip.setPixelColor(9, strip.Color(band_9[index * 3], band_9[index * 3 + 1], band_9[index * 3 + 2]));
+//---------LOOP - runs repeatedly as long as board is on -----------------
+void loop()
+{
+  if (microsTimePerLap > 0) {
+    loopTimer = micros();
+    float delta  = (float(micros() - timeold) / float(microsTimePerLap));
     
-    strip.show();
+    //unsigned int index = round(((float)PIXEL_PER_BAND) * delta);
+    //index %= PIXEL_PER_BAND;
+
+    unsigned int index = loopIndexCounter++;
+    if(index >= PIXEL_PER_BAND)index = PIXEL_PER_BAND - 1;
+
+    index = (index + PIXEL_PER_BAND/2)%PIXEL_PER_BAND;
+
+    unsigned int pixel_index = index * 10;
+    for(int i = 0; i < 10; i++)
+    {
+      strip.setPixelColor(i, palette[bands[pixel_index + i]]);
+    }strip.show();
+
+    while(micros() - loopTimer < targetLoopTime)
+    {
+      //delayMicroseconds(1);
+      
+    }
   }
 }
 
-void magnet_detect()//This function is called whenever a magnet/interrupt is detected by the arduino
+
+//This function is called whenever a magnet/interrupt is detected by the arduino
+void magnet_detect()
 {
-    long timenow = millis();
-    msTimePerLap = (timenow - timeold)*0.3 + msTimePerLap * 0.7;
-    timeold = timenow;
+  unsigned long timenow = micros();
+
+  //Calculate moving average over time per lap
+  #define MOVING_AVERAGE_WINDOW 10
+  static unsigned long movingAverage[MOVING_AVERAGE_WINDOW] = {0};
+  static unsigned long movingAverageIndex = 0;
+  static unsigned long movingAverageCount = 0;
+  if(movingAverageCount < MOVING_AVERAGE_WINDOW)
+  {
+    movingAverageCount++;
+  }
+
+  movingAverage[movingAverageIndex] = (timenow - timeold);
+  movingAverageIndex = (movingAverageIndex + 1) % MOVING_AVERAGE_WINDOW;
+  microsTimePerLap = 0;
+  for(int i = 0; i < movingAverageCount; i++)
+  {
+    microsTimePerLap = microsTimePerLap + movingAverage[i];
+  }
+  if(movingAverageCount != 0)
+  {
+    microsTimePerLap = microsTimePerLap / movingAverageCount;  
+  }
+
+  //Calculate time per pixel in image
+  targetLoopTime = (microsTimePerLap / PIXEL_PER_BAND);
+
+  //Reset timer
+  timeold = timenow;
+
+  //Reset loop index counter
+  loopIndexCounter = 0;
 }
